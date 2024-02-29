@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      body {
+        background-color: black;
+        font: 14pt Arial;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nao esta funcionando</h1>
+    <p class="msg">Estudando JS</p>
+    <p>Aprendendo DOM</p>
+    <script>
+      //   let d = window.document.getElementById("msg");
+      //   d.style.backgroundColor = 'red'
+      //   let d = window.document.getElementsByName("msg")[0];
+      //   d.innerText = "pqp";
+      let d = window.document.querySelector("p.msg");
+      d.style.background = "red";
+    </script>
+  </body>
+</html>
