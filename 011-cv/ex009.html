@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+  </head>
+  <body>
+    <h1>Nacionalidade</h1>
+    Digite em que país voce nasceu:
+    <input type="text" name="txtpais" id="txtpais" />
+    <input type="button" value="Verificar" onclick="verificar()" />
+    <div id="res"></div>
+    <script>
+      function verificar() {
+        let pais = window.document
+          .querySelector("input#txtpais")
+          .value.toLowerCase();
+        let res = window.document.querySelector("div#res");
+        if (pais == "brasil") {
+          res.innerHTML += "<p>Voce é brasileiro</p>";
+        } else {
+          res.innerHTML += "<p>Voce é estrangeiro</p>";
+        }
+      }
+    </script>
+  </body>
+</html>
