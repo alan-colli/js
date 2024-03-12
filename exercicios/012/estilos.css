@@ -6,3 +6,53 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html,
+body {
+  background-color: rgb(73, 71, 71);
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(106, 102, 102, 0.734);
+  width: 80vw;
+  margin: auto;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 102, 102);
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+}
+
+#entradas {
+  height: 70vw;
+  margin: auto;
+}
+
+.ano {
+  display: flex;
+  justify-content: start;
+}
+
+#saidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(106, 102, 102, 0.734);
+  width: 80vw;
+  margin: auto;
+}
