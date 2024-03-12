@@ -29,16 +29,18 @@ main {
   width: 80vw;
   height: 80vh;
   margin: auto;
+  flex-direction: column;
 }
 
 #entradas {
-  height: 70vw;
+  height: 40vw;
   margin: auto;
 }
 
 .ano {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
 }
 
 #saidas {
