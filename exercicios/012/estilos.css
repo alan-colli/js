@@ -15,24 +15,31 @@ body {
 }
 h1 {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: rgba(106, 102, 102, 0.734);
-  width: 80vw;
+  width: 60vw;
   margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(106, 102, 102);
-  width: 80vw;
-  height: 80vh;
+  width: 60vw;
+  height: 60vh;
   margin: auto;
   flex-direction: column;
 }
 
 #entradas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 40vw;
   margin: auto;
 }
@@ -41,6 +48,22 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+}
+
+#inputAno {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 60px;
+}
+
+.sexo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+  width: 30vw;
 }
 
 #saidas {
@@ -48,6 +71,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: auto;
+  height: 30vh;
 }
 
 footer {
@@ -55,6 +79,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: rgba(106, 102, 102, 0.734);
-  width: 80vw;
+  width: 60vw;
   margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
