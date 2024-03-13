@@ -1,7 +1,9 @@
 function verificar() {
   let ttn = window.document.querySelector("input#iano");
   let ano = Number(ttn.value);
-  let idade = 2024 - ano;
+  let data = new Date();
+  let atual = data.getFullYear();
+  let idade = atual - ano;
   let res = window.document.querySelector("div#saidas");
 
   let checkboxes = window.document.querySelector(
