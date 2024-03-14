@@ -38,11 +38,11 @@ div#entradas {
   width: 30vw;
 }
 
-#caixa {
+.caixa {
   margin: 10px;
 }
 
-botao {
+input#botao {
   display: flex;
   align-items: center;
   justify-content: center;
