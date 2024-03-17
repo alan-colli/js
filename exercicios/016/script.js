@@ -1,15 +1,34 @@
-let ttni = window.document.querySelector("input#inicio");
-let ttnf = window.document.querySelector("input#fim");
-let ttnp = window.document.querySelector("input#passo");
-
-let inicio = Number(ttni.value);
-let fim = Number(ttnf.value);
-let passo = Number(ttnp.value);
-
-let res = window.document.querySelector("div#saidas");
-let numero = inicio;
 function contar() {
-  for () {
-    
+  let ini = document.getElementById("inicio");
+  let fim = document.getElementById("fim");
+  let passo = document.getElementById("passo");
+  let res = document.getElementById("res");
+
+  if (
+    ini.value.length == 0 ||
+    passo.value.length == 0 ||
+    fim.value.length == 0
+  ) {
+    window.alert("[ERRO]Faltam dados!");
+    res.innerHTML = `impossivel contar`;
+  } else {
+    res.innerHTML = "Contando: ";
+    let i = Number(ini.value);
+    let f = Number(fim.value);
+    let p = Number(passo.value);
+    if (p <= 0 || i <= 0 || f <= 0) {
+      window.alert(`Impossivel contar`);
+    }
+
+    if (i < f) {
+      for (let c = i; c <= f; c += p) {
+        res.innerHTML += `${c} \u{1F449}`;
+      }
+    } else {
+      for (let c = i; c >= f; c -= p) {
+        res.innerHTML += `${c} \u{1F449}`;
+      }
+    }
+    res.innerHTML += `\u{1F3C1}`;
   }
 }
