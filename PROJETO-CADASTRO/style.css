@@ -69,11 +69,11 @@ section {
   color: aliceblue;
   border-color: aliceblue;
   transition: all ease 0.3s;
-}
-.botao:hover {
-  background-color: aliceblue;
-  color: rgb(74, 72, 72);
-  width: 9vw;
+  &:hover {
+    background-color: aliceblue;
+    color: rgb(74, 72, 72);
+    width: 9vw;
+  }
 }
 
 #saidas {
