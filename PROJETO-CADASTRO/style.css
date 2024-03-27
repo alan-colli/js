@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100vh;
-  width: 100vw;
+body {
+  padding: 0 100px;
 }
 
 header {
@@ -15,22 +14,23 @@ header {
   justify-content: center;
   background-color: rgb(74, 72, 72);
   color: aliceblue;
-  height: 10vh;
-  width: 70vw;
+  /* height: 10vh;
+  width: 70vw; */
   margin: auto;
 }
 header > h1 {
   display: flex;
   justify-content: center;
-  text-align: center;
-  font-size: 3em;
+  align-items: center;
+  font-size: 2em;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  width: 70vw;
+  flex: 1;
+  /* height: 80vh;
+  width: 70vw; */
   margin: auto;
   background-color: rgb(163, 245, 218);
 }
@@ -96,10 +96,10 @@ th {
 
 footer {
   margin: auto;
-  height: 10vh;
-  width: 70vw;
+  /* height: 10vh;
+  width: 70vw; */
   display: flex;
-  text-align: center !important;
+  align-items: center;
   justify-content: center;
   font-size: 1.5em;
   background-color: rgb(74, 72, 72);
