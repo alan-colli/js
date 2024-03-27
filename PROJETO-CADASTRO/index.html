@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciamento de produtos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Gerenciamento de Produtos</h1></header>
+    <section>
+      <div class="inicio">
+        <p id="pprod">Produtos</p>
+        <p id="plista">Lista de Produtos</p>
+      </div>
+
+      <div id="entradas">
+        <p>Produto:</p>
+        <input
+          class="entradasProduto"
+          type="text"
+          name="iproduto"
+          id="iproduto"
+          placeholder="Digite o nome do produto:"
+        />
+        <p>Valor do Produto:</p>
+        <input
+          class="entradasProduto"
+          type="number"
+          id="ivalor"
+          name="ivalor"
+          placeholder="Digite o valor R$00,0"
+        />
+        <br />
+        <input class="botao" type="button" value="Adicionar" /><br />
+        <input class="botao" type="button" value="Cancelar" />
+      </div>
+      <div id="saidas">
+        <table border="1">
+          <thead>
+            <th>ID</th>
+            <th>PRODUTO</th>
+            <th>VALOR</th>
+            <th>EXCLUIR</th>
+          </thead>
+          <tbody>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer>&copy aL</footer>
+  </body>
+</html>
