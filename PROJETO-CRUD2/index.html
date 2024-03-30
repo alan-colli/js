@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Lista de Tarefas</h1></header>
+    <main>
+      <div id="entrada">
+        <p>Digite o nome</p>
+        <input type="text" id="inome" class="cinput" />
+        <p>Digite a tarefa</p>
+        <input type="text" id="itarefa" class="cinput" />
+        <input type="button" class="botao" value="Add+" />
+        <input type="button" class="botao" value="Limpar" />
+      </div>
+      <div id="saida">
+        <table border="1">
+          <thead>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Tarefa</th>
+            <th>Excluir</th>
+          </thead>
+          <tbody id="tabela"></tbody>
+        </table>
+      </div>
+    </main>
+    <footer>&copy;aL</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
