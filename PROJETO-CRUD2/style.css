@@ -39,7 +39,7 @@ main {
     margin-top: 10px;
     border-radius: 5px;
     &:hover {
-      transition: 0.5s;
+      transition: 0.3s;
       width: 60px;
       cursor: pointer;
     }
